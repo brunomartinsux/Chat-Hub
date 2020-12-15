@@ -4,7 +4,6 @@ We are gonna use the MERN stack, wich contains the following: MongoDB, Express, 
 
 # Directory: 
 
-.
 ├── Dockerfile   
 ├── package.json   
 ├── public   
