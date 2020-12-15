@@ -2,6 +2,30 @@
 
 We are gonna use the MERN stack, wich contains the following: MongoDB, Express, React, Node.js.
 
+# Directory: 
+
+.
+├── Dockerfile
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── README.md
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+└── yarn.lock
+
 # Dockerizing
 
 To dockerize your react app, you will need to add a Dockerfile to your app directory, and then, follow the recipe at docker hub documentation.
