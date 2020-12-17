@@ -47,7 +47,82 @@ body {
   margin-top: 10px;
 }
 
-button:hover {
-  font-size: 20px;
+.chatbody {
+  margin: auto;
+  margin-top: 2%;
+  max-height: 80%;
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
+.search {
+  border: none;
+  height: 50px;
+  margin-top: 2%;
+  width: 95%;
+  font-size: 20px;
+  
+
+  background: #EDEDED;
+  border-radius: 5px;
+}
+
+.sidebar-body {
+  width: 500px;
+  height: 840px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F5F7FA;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.chatbox-body {
+  width: 1070px;
+  height: 840px;
+  left: 400px;
+  top: 90px;
+  flex-direction: column;
+
+  background-color: rgba(197, 197, 197, 0.308);
+}
+
+.bt-new {
+  margin-top:30px;
+  border: none;
+  outline: none;
+  width: 180px;
+  height: 50px;
+  left: 110px;
+  top: 13px;
+  cursor: pointer;
+
+background: #9C9A9A;
+border-radius: 5px;
+}
+
+.sidebar-body h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  align-self:start;
+}
+
+.chat-header {
+  align-items:center;
+  display: flex;
+  flex-direction: row;
+
+  background:#cfcfcf;
+
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 1%;
+}

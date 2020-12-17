@@ -1,15 +1,15 @@
 import React from 'react'
+import SideBar from './../components/SideBar'
+import ChatBox from './../components/ChatBox'
 
 function Chat (props) {
 
     const { user } = props
 
     return (
-        <div>
-            <img alt="profile-pic" src={user.photoURL}/>
-            <h1>Bem vindo, {user.displayName}!</h1>
-            <h2>Email: {user.email}</h2>
-            <h2>UID: {user.uid}</h2>
+        <div className='chatbody'>
+            <SideBar />
+            <ChatBox user={user}/>
         </div>
     )
 }
